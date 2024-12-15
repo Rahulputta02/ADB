@@ -116,4 +116,4 @@ pandas
 ### Summary of Expected Outputs
 1. **`preprosess.py`:** Generates a cleaned and preprocessed Parquet file.
 2. **`train.py`:** Trains a Random Forest model, evaluates accuracy, and saves the model.
-3. **`inference.py`:** Uses the trained model to infer on new data and saves predictions to a CSV file.
+3. **`inference.py`: Uses the trained model to infer on new transaction data and prints predictions directly to the console. The predictions include details such as a unique prediction ID, transaction amount, actual class, and the predicted class for each record.
